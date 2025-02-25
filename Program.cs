@@ -10,7 +10,14 @@ namespace ADA_Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello. World!");
+            int x;
+            int y;
+
+            x = 3;
+            y = 4;
+            int sum;
+            sum = x + y;
+            Console.WriteLine("X + Y =" +sum);
         }
     }
 }
